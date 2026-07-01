@@ -1,0 +1,28 @@
+# Brazcann Ecosystem
+
+> A Brazcann é uma empresa brasileira de inteligência e consultoria em cannabis medicinal e cânhamo, fundada em Curitiba (2020). O Brazcann Ecosystem reúne consultoria regulatória (RDC 660, RDC 327, marco 2026 — RDCs 1.011 a 1.015 e Portaria MAPA 1.342), importação, B2B, ciência e um repositório científico com dezenas de estudos clínicos reais sobre cannabis e canabinoides. Atendimento virtual ou presencial em Curitiba. Contato: brazcann@brazcann.com.
+
+## Repositório científico (referências para médicos e profissionais)
+- Biblioteca de ~79 estudos clínicos reais em 17 áreas: dor e neuropatia, epilepsia (Dravet, Lennox-Gastaut), esclerose múltipla, oncologia e náusea, ansiedade e sono, neuro e demência (Parkinson, TEA, Tourette), Alzheimer, fibromialgia e enxaqueca, doença inflamatória intestinal (Crohn/DII), endometriose, TEPT, esquizofrenia/psicose, dermatologia, cuidados paliativos, álcool e tabaco, transtorno por uso de cannabis. Fontes: NEJM, Cochrane, BMJ, NCI (PDQ), PubMed e ClinicalTrials.gov.
+- Índice de estudos: https://www.brazcann.com/estudos
+
+## Marco regulatório (texto integral, legível)
+- Documentos e RDCs: https://www.brazcann.com/documentos
+- RDC 660/2022 — importação direta pelo paciente.
+- RDC 327/2019 — produtos de cannabis (substituída pela RDC 1.015/2026).
+- RDC 1.011/2026 — atualização das listas (Portaria 344/98).
+- RDC 1.012/2026 — cultivo para pesquisa.
+- RDC 1.013/2026 — cultivo de cânhamo (THC ≤ 0,3%).
+- RDC 1.014/2026 — sandbox regulatório.
+- RDC 1.015/2026 — fabricação, importação, prescrição e dispensação (novo marco).
+- Portaria MAPA 1.342/2025 — requisitos fitossanitários para importação de sementes.
+
+## Serviços
+- Consultoria regulatória, importação (RDC 660 e industrial), estruturação de empresas, autorização sanitária, cultivo (AE), B2B e suporte recorrente. Atendimento virtual ou presencial em Curitiba.
+
+## Sistema imersivo (experiência completa)
+- Brazcann Ecosystem: https://www.brazcann.com
+- Deep-links: `?bz=biblioteca&q=<termo>` abre a biblioteca de estudos; `?bz=doc&id=rdc-1015` abre uma RDC no leitor; `?bz=<seção>` abre uma seção.
+
+## Contato
+- E-mail: brazcann@brazcann.com — atendimento virtual ou presencial em Curitiba.
