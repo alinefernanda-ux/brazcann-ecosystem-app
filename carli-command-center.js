@@ -43,7 +43,7 @@ Error generating stack: `+a.message+`
 :host, .cc-root { color-scheme: dark; }
 * { box-sizing: border-box; }
 .cc-root {
-  min-height: 100vh; display: flex; color: #e9ebf8;
+  height: 100vh; max-height: 100vh; overflow: hidden; display: flex; color: #e9ebf8;
   font-family: 'Segoe UI', system-ui, -apple-system, Roboto, sans-serif;
   background: radial-gradient(1200px 700px at 70% -10%, #14102a 0%, #0a0d18 45%, #05060e 100%);
 }
