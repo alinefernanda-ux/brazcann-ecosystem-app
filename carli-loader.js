@@ -12,8 +12,11 @@
     s.src = src; s.async = false; s.setAttribute('data-carli-cc', '1');
     document.head.appendChild(s);
   }
-  fetch(BASE + 'carli-version.json', { cache: 'no-store' })
+  // Prévia da NOVA CARA (04/11/2026): só com ?nova=1 na URL da página. Sem o parâmetro, nada muda.
+  var nova = /[?&]nova=1/.test(location.search);
+  var F = nova ? 'carli-command-center-nova.js' : 'carli-command-center.js';
+  fetch(BASE + (nova ? 'carli-nova-version.json' : 'carli-version.json'), { cache: 'no-store' })
     .then(function (r) { return r.ok ? r.json() : null; })
-    .then(function (j) { load(BASE + 'carli-command-center.js?v=' + ((j && j.v) || Date.now())); })
-    .catch(function () { load(BASE + 'carli-command-center.js'); });
+    .then(function (j) { load(BASE + F + '?v=' + ((j && j.v) || Date.now())); })
+    .catch(function () { load(BASE + F); });
 })();
